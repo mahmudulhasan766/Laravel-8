@@ -8,7 +8,7 @@
 
 My name is hasan.
 
-name: {{$name}}
+name: 
 </body>
 </head>
 </html>
