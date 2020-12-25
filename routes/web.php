@@ -17,3 +17,4 @@ Route::get('/index', [FirstController::class, 'index']);
 Route::get('/welcome', [FirstController::class, 'welcome']);
 Route::get('/babu', [FirstController::class, 'babu']);
 Route::get('/navber', [FirstController::class, 'navber']);
+Route::view('/xyz', 'welcome');
