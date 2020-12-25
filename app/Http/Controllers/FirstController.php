@@ -11,13 +11,13 @@ class FirstController extends Controller
         return view('mydashboard');
     }
 
-    public function about(){
-        echo "My name is hasan";
+    public function welcome(){
+        return view('welcome');
     }
     public function babu(){
         echo "My name is Babu";
     }
-    public function mamun(){
-        echo "My name is mamun";
+    public function navber(){
+        return view('navbar');
     }
 }

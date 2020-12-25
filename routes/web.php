@@ -13,7 +13,7 @@ Route::get('/', function () {
 // return view('mydashboard',['name'=>"My name is babu"]);
 // });
 
-Route::get('/server', [FirstController::class, 'index']);
-Route::get('/about', [FirstController::class, 'about']);
+Route::get('/index', [FirstController::class, 'index']);
+Route::get('/welcome', [FirstController::class, 'welcome']);
 Route::get('/babu', [FirstController::class, 'babu']);
-Route::get('/mamun', [FirstController::class, 'mamun']);
+Route::get('/navber', [FirstController::class, 'navber']);

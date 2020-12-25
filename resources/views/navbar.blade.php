@@ -43,12 +43,13 @@
         </li>
     
         <li class="nav-item">
-          <a class="nav-link" href="/index">Deshboard</a>
+          <a class="nav-link" href="{{URL::to('/index')}}">Deshboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
         
+      
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,7 +61,7 @@
 
 <div class="container">
     <div class="jumbotron">
-    <h1> This is my Deshboard </h1>
+    <h1> This is my home page </h1>
     </div>
 </div>
 
