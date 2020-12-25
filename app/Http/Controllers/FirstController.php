@@ -14,4 +14,10 @@ class FirstController extends Controller
     public function about(){
         echo "My name is hasan";
     }
+    public function babu(){
+        echo "My name is Babu";
+    }
+    public function mamun(){
+        echo "My name is mamun";
+    }
 }

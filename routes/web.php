@@ -15,3 +15,5 @@ Route::get('/', function () {
 
 Route::get('/server', [FirstController::class, 'index']);
 Route::get('/about', [FirstController::class, 'about']);
+Route::get('/babu', [FirstController::class, 'babu']);
+Route::get('/mamun', [FirstController::class, 'mamun']);
