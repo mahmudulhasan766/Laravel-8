@@ -6,18 +6,20 @@ use Illuminate\Http\Request;
 
 class FirstController extends Controller
 {
-    public function index()
+    public function homepage()
     {
-        return view('mydashboard');
+        return view('homepage');
     }
 
     public function welcome(){
         return view('welcome');
     }
-    public function babu(){
-        echo "My name is Babu";
+
+    public function deshboard(){
+        return view('mydashboard');
     }
-    public function navber(){
-        return view('navbar');
+
+    public function about(){
+        return view('myabout');
     }
 }
