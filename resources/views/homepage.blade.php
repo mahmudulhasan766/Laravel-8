@@ -39,10 +39,10 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     
         <li class="nav-item">
-          <a class="nav-link" href="{{URL::to('/deshboard')}}">Deshboard</a> 
+          <a class="nav-link" href="{{route('deshboardpage')}}">Deshboard</a> 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="{{route('about.page')}}">About</a>
         </li>
         
       

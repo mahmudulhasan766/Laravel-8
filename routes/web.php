@@ -16,5 +16,5 @@ Route::get('/', [FirstController::class, 'homepage']);
 //Route::get('/index', [FirstController::class, 'index']);
 //Route::get('/welcome', [FirstController::class, 'welcome']);
 Route::get('/about', [FirstController::class, 'about'])->name('about.page');
-Route::get('/deshboard', [FirstController::class, 'deshboard']);
+Route::get('/deshboard', [FirstController::class, 'deshboard'])->name('deshboardpage');
 //Route::view ('/', 'homepage');
