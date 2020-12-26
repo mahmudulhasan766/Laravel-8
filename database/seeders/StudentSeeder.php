@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use App\Models\Student;
+use Database\Factories\StudentFactory;
 
 class StudentSeeder extends Seeder
 {
@@ -17,23 +18,6 @@ class StudentSeeder extends Seeder
      */
     public function run()
     {
-        // DB::table('Students')->insert([
-        //     [
-        //         'name' => 'hasan',
-        //         'email' => 'hasan@gmail.com',
-        //         'phone' => '01956565756',
-        //         'address' => 'badda,dhaka',
-        //     ],
-           
-        // ]);
-
-        for ($i=0;$i<8;$i++){
-            Student::create([
-                'name' => Str::random(10),
-                 'email' => Str::random(10).'@gmail.com',
-                 'phone' => Str::random(11),
-                 'address' => Str::random(),
-            ]);
-        }
+        Student::factory()->count(10)->create();
     }
 }
