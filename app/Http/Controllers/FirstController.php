@@ -14,6 +14,9 @@ class FirstController extends Controller
     public function welcome(){
         return view('welcome');
     }
+    public function Login(){
+        return view('login');
+    }
 
     public function deshboard(){
         return view('mydashboard');
