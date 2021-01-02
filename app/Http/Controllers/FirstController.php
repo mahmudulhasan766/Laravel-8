@@ -25,4 +25,8 @@ class FirstController extends Controller
     public function about(){
         return view('myabout');
     }
+
+    public function Index(){
+        return view('index');
+    }
 }

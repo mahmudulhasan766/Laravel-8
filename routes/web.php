@@ -19,3 +19,4 @@ Route::get('/about', [FirstController::class, 'about'])->name('about.page');
 Route::get('/deshboard', [FirstController::class, 'deshboard'])->name('deshboardpage');
 //Route::view ('/', 'homepage');
 Route::get('/login', [FirstController::class, 'Login']);
+Route::get('/index', [FirstController::class, 'Index']);
